@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 container card mt-5">
+            <form>
+                <h1 class="text-center text-success mt-3">UPLOAD IMAGE</h1>
+                <div class="m-5 text-center">
+                    <input [(ngModel)]="pdata.title" class="form-control mt-4" type="text" name="t1" id="t1" placeholder="Image Title">
+                    <input [(ngModel)]="pdata.url" id="u1" name="u1" class="form-control mt-4" type="text" placeholder="Image url">
+                    <input [(ngModel)]="pdata.desc" name="d1" id="d1" class="form-control mt-4" type="text" placeholder="Description">
+                    <button (click)="update()" class="btn btn-success mt-5">Upload</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
